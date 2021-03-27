@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ግእዝ - ደረጃ ሶስት</title>
+    <!-- Bootsrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/svg" href="../assets/images/icon-africa.png" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <nav class="navbar nav-custom navbar-expand-md navbar-light sticky-top">
+        <li class="nav-link mr-5">
+            <a class="navbar-brand custom-brand" href="../index.html">የኔታ</a>
+        </li>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-hamburger"></i></span>
+       </button>
+
+        <div class="collapse navbar-collapse"  id="colNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-4 mr-5">
+                    <a class="nav-link" href="../index.html">መነሻ</a>
+                </li>
+                <li class="nav-item dropdown mr-5"> 
+                    <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="./learn.html" role="button" aria-haspopup="true" aria-expanded="false">ትምህርት</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="./learn.html">ትምህርት</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item " href="registerLogin.html">ደረጃ አንድ</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./level2.html">ደረጃ ሁለት</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="./level3.html">ደረጃ ሶስት</a>
+                    </div>
+                </li>
+                
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="./about.html">ስለ እኛ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">አግኙን</a> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="level_title ml-5 pl-5 mt-5 mb-5">ደረጃ ሶስት</h1>
+
+    <div class="container">
+        <div class="row ml-5">
+            <div class="col-4 left-nav">
+              <div class="list-group my-list" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active-learn py-3 learn-nav" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">የግዕዝ ቅኔዎች</a>
+                <a class="list-group-item list-group-item-action py-3 learn-nav test_tab disabled" id="list-profile-list text-center" data-toggle="list" href="#list-test" role="tab" aria-controls="profile">ፈተና</a>
+              </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <h1 class="text-center title-learn mb-5">የግዕዝ ቅኔ</h1>
+                        <div class="letter-container">  
+                            <h2 class="ml-4 light mt-4 text-center"> ስለ ቅኔ</h2>
+                            <p class="text-justify px-2">  የግእዜን ቅኔ የጀመረው በሰሜን ኢትዮጵያ በትግራይ ክፍለ ሀገር ተወላጅ የኾነው የፀዋትወ ዛማ
+                                ደራሲ ኢትዮጵያዊዉ ሉቅ ቅደስ ያሬዴ ሲኾን፣ ጸዋትወ ዛማን ሲደርስ አብሮ እንደጀመረው  ይተርካል። ይኽውም በስድስተኛዉ ምእት ዓመት
+                                በዐፄ ገብረ መስቀሌ ዘመነ መንግሥት ነበር። ቅደስ ያሬድ ቅኔን የጀመረዉ ፀዋትወ ዜማን ሲደርስ ምዕራፍ በተባለው ድርሰቱ በሠራዉን ምቅናይ ነው። 
+                            </p>
+
+                        </div>
+
+                        <div class="letter-container mt-4">  
+                            <h2 class="ml-4 light mt-4 text-center"> የቅኔ ክፍሎች</h2>
+                            <h3 class="ml-4 light mt-4"> <b> ሀ. ጉባኤ ቃና፦</b> </h3>
+                            <p class="text-justify px-2">  ጉባኤ ቃና ባለ ሁለት ስንኝ የመጀመሪያ የቅኔ ክፍል ነው። ከዜማ አኳያ ዕዝልና ግእዜ ጉባኤ ቃና ተብለው 
+                                የሚከፍፈሉ ሲኾኑ፣ ከስንኞቹ ምጣኔ አኳያ ደግሞ አጭር ጉባኤ ቃና (ባለ አጭር ሐረግ) እና ረጅም ጉባኤ ቃና (ባለ ረጅም ሐረግ) ተብለው 
+                                ሊከፈሉ የሚችሉ ናቸው። የቅኔ ትምህርት የመሠረት ድንጋይ የሚጣለው ጉባኤ ቃና ላይ ነው።
+                            </p>
+                            <h3 class="ml-4 light mt-4">  <b> ለ. ዘአምሊኪየ፦</b> </h3>
+                            <p class="text-justify px-2">  ዘአምሊኪየ የሚለው ሁለተኛ የቅኔ እርከን ባለ ሦስት ቤት ሲኾን፣ የመካከለኛው ቤት መንደርደሪያ ይባላል።
+                                ዜማውም ሁልጊዜ ዕዝል ነው። የስሙን ትርጓሜ ያገኘው “አምሊኪየ አምሊኪየ እገይስ ኀቤከ” ከሚለው የዲዊት መዝሙር ነው።
+                                ዘአምሊኪየ ማለት የጌታ ምስጋና ማለት ነው። የጌታ ምስጋና እንዲህ ነው ለማለት ዘአምሊኪየ ተብሏል። 
+                            </p>
+                            <h3 class="ml-4 light mt-4"> <b> ሐ. ሚበዘኁ፦</b> </h3>
+                            <p class="text-justify px-2">  ይህ የቅኔ እርከን ሥያሜውን ያገኘው “እግዙኦ ሚበዘኁ እለ ይሳቅዩኒ”
+                                ከሚለው የዲዊት መዝሙር ሲኾን፣ ትርጉሙም የሥላሴ ምስጢራት ምንኛ የበዙ ናቸው
+                                ማልት ነው። ሚበዘኁ እንደ ዘአምሊኪየ ሦስት ቤት አለው። የመሀል ቤት ማንደርደሪያ
+                                ይባላል። የሚበዘኁ ዜማ ሁልጊዜ ዕዝል ነው። 
+                            </p>
+
+                            <h3 class="ml-4 light mt-4"> <b> መ. ዋዜማ፦</b> </h3>
+                            <p class="text-justify px-2">  ዋዜማ የተሰኘው ቅኔ በክብረ በዓላት ዋዜማ ላይ በሚደረሱ መዝሙራት ጣልቃ
+                                እየገባ የሚደረስ በመኾኑ ዋዜማ የሚለውን የራሱን ስያሜ አግኝቷል። ትርጉሙም በሰርክ የሚደረስ መስዋዕተ ስብሀት ማለት ነው።
+                            </p>
+
+                            <h3 class="ml-4 light mt-4"> <b> ሠ. ሥሊሴ፦</b> </h3>
+                            <p class="text-justify px-2">  ይህ የቅኔ ክፍል ሥያሜውን ያገኘው “ይትባረክ እግዙአብሔር አምሊከ አበዊነ”
+                                በተባለው የሠልስቱ ደቂቅ ጸሎት እየገባ የሚነገር ስለኾነ ነው። የሥላሴ ቅኔ ዜማ ሁሌጊዜ ዕዝል ሲኾን፣ ሥላሴ ማለት ሦስተኛ እየኾነ 
+                                የሚገባ ማለት ነው። 
+                            </p>
+
+                            <h3 class="ml-4 light mt-4"> <b> ረ. ዘይእዜ፦</b> </h3>
+                            <p class="text-justify px-2">  ዘይእዜ በስብሐተ ነግህ አገልግሎት ጊዜ “ይእዜ ትስእሮ ለገብርከ” በሚለው
+                                ጸሎተ ስምዖን ሊይ ስለሚገባ ዘይእዜ ተብሏል። ዘይእዜ ቅኔ ስለ ንጉሥ ክብርም ይቀርባል። ዘይእዜ አጭርና ረጅም ተብሎ በሁለት
+                                 ይከፈላል። ረጅሙ አምስት ቤት ያለውና ዜማውም ግእዝ ሲኾን፣ ውክልናውም፦ የአምስቱ አዕማደ ምስጢራትና በስብሐተ
+                                ነግህ፣ በአራት ምዕራፌ፣ በአራት ጉባኤ ቃና፣ በአምስተኛው ራሱ የመዯረሱ ምሳላ ነው።
+                                አጭር ዗ይእዛ የሚባሇው ሦስት ቤት ያሇው ሲኾን፣ “ተሰሃሇኒ እግዙኦ በከመ እበየ ሳህሌከ”
+                                የተሰኘውን የዲዊት መዜሙር እየ዗መሩ ስሇሚጀምሩት ሳህሌከ ቅኔ ተብል ይጠራሌ።
+                                ዛማውም አራራይ ነው። 
+                            </p>
+
+                            <h3 class="ml-4 light mt-4"> <b> ሐ. ሚበዘኁ፦</b> </h3>
+                            <p class="text-justify px-2">  ይህ የቅኔ እርከን ሥያሜውን ያገኘው “እግዙኦ ሚበዘኁ እለ ይሳቅዩኒ”
+                                ከሚለው የዲዊት መዝሙር ሲኾን፣ ትርጉሙም የሥላሴ ምስጢራት ምንኛ የበዙ ናቸው
+                                ማልት ነው። ሚበዘኁ እንደ ዘአምሊኪየ ሦስት ቤት አለው። የመሀል ቤት ማንደርደሪያ
+                                ይባላል። የሚበዘኁ ዜማ ሁልጊዜ ዕዝል ነው። 
+                            </p>
+
+                        </div>
+
+                        <div class="letter-container mt-4">
+                            <h2 class="ml-4 light mt-4 text-center"> ምሳሌዎች</h2>
+                            <h3 class="ml-2"> <b> ቅኔ፡</b> </h3>
+                            <p class="text-justify px-2 qene">አመ ወድቀ ግዕዝ አረጋዊ በዘሳባውያን ፍና፡፡ ለአንሥዖቱ ትውረጽ እንታክቲ ወለተ ምሁራን ህሊና፡፡ 
+                            </p>
+                            <h3 class="ml-2"> <b> ፍቺ፡</b> </h3>
+                            <p class="text-justify px-2 difinitioin">  ሽማግሌውን ግዕዝ በሳባውያን ጎዳና ላይ በወደቀ ጊዜ፤ የምሁራን ህሊና የሆነች ሴት ታነሳው ዘንድ ትሮጣለች፡፡</p>
+                            <h3 class="ml-2"> <b> ምስጢር፡</b> </h3>
+                            <p class="text-justify px-2 secret">
+                                አንድ ሽማግሌ በመንገድ ላይ ሲወድቅ አንዲት ሴት ታነሳው ዘንድ እንደምትሮጥ፤ ምሁራንም  </p>
+                                
+                            
+                        </div>
+
+                        <div class="ml-3 text-center mt-4 ml-5 next"><a class="btn btn-custom "> ቀጣይ </a></div>
+                        
+                    </div>
+
+                    <div class="tab-pane fade" id="list-test" role="tabpanel" aria-labelledby="list-test-list">
+                        <div class="level1-test">
+                            <!-- start Quiz button -->
+                            <div class="start_btn"><button>ፈተና ጀምር</button></div>
+    
+                            <!-- Info Box -->
+                            <div class="info_box">
+                                <div class="info-title"><span>ለፈተናው የሚረዱ ህጎች</span></div>
+                                <div class="info-list">
+                                    <div class="info">1. ለእያንዳንዱ ጥያቄ <span>15 ሰከንድ</span> ብቻ ነው እሚሰጠው፡፡</div>
+                                    <div class="info">2. አንዴ ያሰቡትን መልስ ከመረጡ በኋላ, ድጋሚ መምረጥ አይችሉም፡፡</div>
+                                    <div class="info">3. ሰአት ካለቀ በኋላ ምንም አይነት ምርጫ መምረጥ አይቻልም፡፡</div>
+                                    <div class="info">4. ፈተናውን ከጀመሩ በሃላ ፈተናውን ማቃረጥ አይፈቀድም፡፡</div>
+                                    <div class="info">5. ውጤት እሚያገኙት ትክክለኛው መልስ ተቆጥሮ ነው፡፡</div>
+                                </div>
+                                <div class="buttons">
+                                    <button class="quit">ለመውጣት</button>
+                                    <button class="restart">ለመቀጠል</button>
+                                </div>
+                            </div>
+    
+                            <!-- Quiz Box -->
+                            <div class="quiz_box">
+                                <header>
+                                    <div class="title">ደረጃ 1 ፈተና</div>
+                                    <div class="timer">
+                                        <div class="time_left_txt">ቀሪ ሰአት</div>
+                                        <div class="timer_sec">15</div>
+                                    </div>
+                                    <div class="time_line"></div>
+                                </header>
+                                <section>
+                                    <div class="que_text">
+                                        <!-- Here I've inserted question from JavaScript -->
+                                    </div>
+                                    <div class="option_list">
+                                        <!-- Here I've inserted options from JavaScript -->
+                                    </div>
+                                </section>
+    
+                                <!-- footer of Quiz Box -->
+                                <footer>
+                                    <div class="total_que">
+                                        <!-- Here I've inserted Question Count Number from JavaScript -->
+                                    </div>
+                                    <button class="next_btn">ቀጣይ ጥያቄ</button>
+                                </footer>
+                            </div>
+    
+                            <!-- Result Box -->
+    
+                            <div class="result_box">
+                                <div class="icon">
+                                    <i class="fas fa-crown"></i>
+                                </div>
+                                <div class="complete_text">ፈተናውን ጨርሰዋል!</div>
+                                <div class="score_text">
+                                    <!-- Here I've inserted Score Result from JavaScript -->
+                                </div>
+                                <div class="buttons">
+                                    <button class="restart">እንደገና ለመፈተን</button>
+                                    <button class="quit">ለመውጣት</button>
+                                </div>
+                                <div class="link buttons">
+                                    <a href="./scrambleGame.html" target="_blank"><button class="card">ጨዋታ</button></a>
+                                    <a href="./certificate3.html" target="_blank"><button class="game">የምስክር ወረቀት</button></a>
+                                </div>
+                            </div>
+                            
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+        
+    <!-- Footer -->
+    <div class="footer mb-0 mt-5 pb-0 pt-5" style="margin-top: 90vh;">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-md-4 mr-5 pr-5">
+                    <h4 class="font-weight-bold footer-color">ስለ የኔታ</h4>
+                    <p class="text-justify footer-color">የኔታ የቡድናችን ስም ሲሆን የምንሰራው ድረ-ገጽ መስተምህረ ግዕዝ ይባላል።<br>
+                        የኔታ አባሎች የ አዲስ አበባ ዩኒቨርሲቲ ተማሪዎች ነን። </p>
+                </div>
+                <div class="col-md-3 mr-5 ">
+                    <h5 class="footer-color mb-3 font-weight-bold">በድህረገጾች ተከታተሉን</h5>
+                    <div><i class="fa fa-envelope-o footer-icon mb-3"></i><span class="ml-2 ftr-txt-clr">ተከተሉን በ ፊስቡክ ግጻችን</span></div>
+                    <div><i class="fab fa-twitter mr-3 footer-icon mb-3"><span class="ml-2 ftr-txt-clr">ተከተሉን በ ቲዊተር ግጻችን
+                                </span></i></div>
+                    <div><i class="fab fa-github footer-icon mb-3"></i><span class="ml-2 ftr-txt-clr">ተከተሉን በ ጊታብ ግጻችን
+                          </span></div>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-color mb-3 font-weight-bold">አግኙን</h5>
+
+                    <div><i class="fas fa-home footer-icon mb-2"></i><span class="ml-2 ftr-txt-clr">በፌስቡክ ግጻችን
+                            ተከታተሉን</span></div>
+                    <div class="ml-4 ftr-txt-clr pl-3 mb-2">አዲስ አበባ</div>
+                    <div class="ml-4 ftr-txt-clr pl-3 mb-3">ፒያሳ, 5ተኛ ፎቅ</div>
+                    <div><i class="ml-1 fas fa-mobile-alt mr-3 footer-icon mb-3"><span
+                                class="ml-2 ftr-txt-clr">12345678</span></i></div>
+                    <div><i class="fab fa-github footer-icon mb-4"></i><span
+                            class="ml-2 ftr-txt-clr">Yeneta@gmail.com</span></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootsrap Javascript -->
+    <script src="../assets/js/quz3.js"></script>
+    <script src="../assets/js/Question3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="../assets/js/level3Db.js" type="module"></script>
+    <script src="../assets/js/level3.js"></script>
+
+    <!-- Dexie API -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dexie/3.0.3/dexie.min.js" integrity="sha512-aEtNzq8X5E0ambgeM68H174SOXaANJ6wDqJ0TuVIx4R2J4fRdUA0nLzx0faA1mmViqb+r0VX7cOXkskxyJENUA==" crossorigin="anonymous"></script> 
+
+
+</body>
+</html>
